@@ -31,7 +31,7 @@ void main(void)
     vTextureCoord = aPosition;
 }`;
 
-    // Fragment shader looks good
+    // Fragment shader 
     const fragmentShader = `
      in vec2 vTextureCoord;
      out vec4 finalColor;
